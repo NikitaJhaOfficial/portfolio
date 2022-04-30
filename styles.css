@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+pro:wght@300&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.sidebar {
+    position: absolute;
+    background-color: rgb(162, 160, 160);
+    font-family: 'Updock', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.sidebar nav {
+    padding: 30px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 19px;
+    padding: 18px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color:rgb(6, 6, 6)
+}
+
+
+
+.main {
+    /* background-color: yellowgreen;*/
+    width: 90vw;
+
+
+}
+
+.container {
+    display: flex;
+}
+
+
+.infoContainer {
+    /* background-color: rgb(203, 16, 159);*/
+    height: 38vh;
+    width: 70vw;
+    margin: 126px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-style: initial;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+
+.about {
+    font-size: 2.5em;
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+
+.moreabout {
+      font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fira';
+}
+
+.buttons {
+    margin-top: 2.2em;
+    font-size: 16px;
+    
+}
+
+.btn {
+    padding: 11px;
+    border-radius: 22px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px o;
+}
+
+.btn:hover{
+    background-color: white;
+    color: blue;
+
+}
+
+.devPic img {
+    width: 222px;
+    height: 38vh;
+
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 88px;
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /*padding: 12px 0;*/
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+      flex-direction: column;
+}
+
+.contactform form div input{
+   /* width: 26vw;*/
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+.contactform form{
+    margin: 0 40px;
+}
+
+#emailHelp{
+    font-size: 11px;
+       color:midnightblue;
+       margin: 4px 5px;
+       padding: 12px 0;
+       
+}
+
+#form-check{
+ flex-direction: row;
+}
+
+#form-check input{
+      width: 15px;
+      margin: 4px 0;
+
+}
+
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 3px 0;
+
+}
+
+.achievementitem{
+    margin: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    
+}
+
+
+p{
+     font-family:Arial, Helvetica, sans-serif;
+}
+
+.intro{
+    margin: 88px;
+}
+
+.intro h2{
+    font-family:'source code pro', monospace;
+    margin: 12px;
+}
+
+.intro p{
+ font-family:Arial, Helvetica, sans-serif;
+ margin: 12px;
+}
+
+.skillscontainer{
+    padding: 12px;
+}
+
+.skillsitem{
+    display: flex;
+    align-items: center;
+    font-family:'source code pro', monospace;
+}
+
+.skills{
+    width: 200px;
+    height: 10px;
+    background-color: rgb(78, 3, 3);
+    border: 2px solid black;
+}
+
+.achievementscontainer{
+    margin: 88px;
+}
+
+.t6{
+    width: 200px; 
+    background-color: rgb(23, 8, 109);
+
+}
+
+.t7{
+    width: 170px;
+     background-color: rgb(13, 13, 6);
+}
+
+
+.t4{
+
+ width: 150px;
+ background-color: rgb(143, 11, 11);
+}
+
+.t3{
+    width: 120px;
+    background-color: yellow;
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 4px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 163px;
+    margin-top: 8px;
+}
+
+@media (max-width: 1245px){
+   *{
+     /* background-color: rgb(249, 246, 246);*/
+    }
+
+    .buttons{
+        font-size: 3px;
+    }
+
+    .devInfo{
+        font-size: 10px;
+    }
+
+    .devPic{
+        display: none;
+    }
+
+/*.sidebar{
+    transform: translate( -443px ,0px);
+    position: absolute;
+ }*/
+}
+
+.intro .achievementscontainer .contact{
+    margin: 50px 8px;
+}
